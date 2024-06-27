@@ -1,0 +1,280 @@
+@include media-breakpoint-down(xxxl) {
+    .image-banner-top-left {
+        top: 30px;
+        left: 20px;
+    }
+    .banner-1 {
+        top: 33%;
+        right: 0px;
+        text-align: right;
+        img {
+            max-width: 80%;
+        }
+    }
+    .banner-3 {
+        bottom: -110px;
+        right: 30px;
+        text-align: right;
+        img {
+            max-width: 80%;
+        }
+    }
+    .banner-2 {
+        top: 40%;
+        left: 0px;
+        img {
+            max-width: 70%;
+        }
+    }
+}
+@include media-breakpoint-down(xxl) {
+    //max-width: 1399.98px
+    .custom-class {
+        display: block;
+    }
+    .header .main-menu li {
+        padding: 0px 10px;
+    }
+    .box-banner-home4 .box-image-banner-home4 .shape-phone {
+        right: -30px;
+    }
+    .card-journey-small .card-info {
+        padding: 20px 16px;
+    }
+    .box-grid-hotels .card-flight .card-image {
+        max-width: 280px;
+    }
+    .box-content-info-detail {
+        margin-top: -90px;
+    }
+}
+@include media-breakpoint-down(xl) {
+    //max-width: 1199.98px
+    .burger-icon {
+        display: block;
+    }
+    .custom-class {
+        display: block;
+    }
+    .header .main-header .header-right {
+        min-width: 290px;
+    }
+    .header-right {
+        padding-right: 50px;
+    }
+    .header .nav-main-menu {
+        display: none;
+    }
+    .header .main-header {
+        padding: 10px 0px;
+    }
+    .sticky-bar.stick .main-header {
+        padding: 10px 0px;
+    }
+    .box-list-numbers {
+        padding: 80px 30px;
+        flex-wrap: wrap;
+    }
+    .banner-1, .banner-2, .banner-3 {
+        display: none;
+    }
+}
+@include media-breakpoint-down(lg) {
+    //max-width: 991.98px
+    .block-filter-search .filter-right {
+        width: 60%;
+        text-align: center;
+    }
+    .block-filter-search .filter-left {
+        width: 40%;
+    }
+    .block-dropdown-filter, .left-dropdown-filter {
+        flex-wrap: wrap;
+    }
+    .left-dropdown-filter {
+        margin-bottom: 15px;
+    }
+    .block-filter-search .filter-right .category-link {
+        padding: 5px 14px;
+        margin: 0px 2px 0px 0px;
+    }
+    .box-list-numbers {
+        padding: 30px 10px;
+        flex-wrap: wrap;
+    }
+    .box-list-numbers .item-numbers {
+        width: 50%;
+        padding: 0px 20px;
+        &::before {
+            right: 10px;
+        }
+        &.item-numbers-2 {
+            &::before {
+                display: none;
+            }
+        }
+    }
+    .swiper-pagination-style-2 {
+        right: 15px;
+    }
+    .list-numbers {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .list-numbers .item-number {
+        width: 33.33%;
+        margin-bottom: 25px;
+    }
+    .box-info-figma {
+        padding: 139px 30px 40px 30px;
+    }
+    .box-page-design-inner {
+        background-size: 150px;
+    }
+    .box-title-bestsell {
+        padding-right: 30px;
+        background-image: none;
+    }
+}
+@include media-breakpoint-down(md) {
+    //max-width: 767.98px
+    .mobile-header-wrapper-style {
+        .mobile-header-wrapper-inner {
+            .mobile-header-top {
+                padding: 15px 30px 13px 30px;
+                border-bottom: 1px solid var(--bs-border-color);
+                .mobile-header-logo a img {
+                    width: 140px;
+                }
+            }
+            .mobile-header-content-area {
+                padding: 30px;
+            }
+        }
+    }
+    .box-title-bestsell {
+        padding-right: 0px;
+    }
+    .text-slide {
+        font-size: 80px;
+        line-height: 80px;
+    }
+    h1, .heading-1 {
+        font-size: 44px;
+        line-height: 56px;
+    }
+    .text-with-img {
+        font-size: 14px;
+    }
+    .text-lg, .text-lg-medium, .text-lg-bold {
+        font-size: 14px;
+        line-height: 1.2;
+    }
+}
+@include media-breakpoint-down(sm) {
+    //max-width: 575.98px
+    .header .main-header .header-right {
+        min-width: 150px;
+        .btn-green-linear {
+            display: none;
+        }
+    }
+    .burger-icon {
+        top: 0px;
+    }
+    .sticky-bar.stick .burger-icon {
+        top: 0px;
+    }
+    h1, .heading-1 {
+        font-size: 54px;
+        line-height: 66px;
+    }
+    h2, .heading-2 {
+        font-size: 42px;
+        line-height: 60px;
+    }
+    .block-banner-landing {
+        min-height: 770px;
+        padding-top: 154px;
+    }
+}
+@include media-breakpoint-down(xs) {
+    .mobile-header-wrapper-style .mobile-header-wrapper-inner .mobile-header-top {
+        padding: 15px 15px 13px 15px;
+    }
+    .mobile-header-wrapper-style .mobile-header-wrapper-inner .mobile-header-content-area {
+        padding: 15px;
+    }
+    h1, .heading-1 {
+        font-size: 30px;
+        line-height: 40px;
+    }
+    .banner-main h1 {
+        font-size: 40px;
+        line-height: 50px;
+    }
+    .list-numbers {
+        flex-wrap: wrap;
+    }
+    .list-numbers .item-number {
+        width: 50%;
+    }
+    .btn.btn-white {
+        font-size: 16px;
+        line-height: 26px;
+    }
+}
+@include media-breakpoint-down(xxs) {
+    .box-list-numbers .item-numbers {
+        width: 100%;
+        &::before {
+            display: none;
+        }
+    }
+    h3, .heading-3 {
+        font-size: 34px;
+        line-height: 48px;
+    }
+    h4, .heading-4 {
+        font-size: 24px;
+        line-height: 34px;
+    }
+    .box-buttons-banner {
+        flex-wrap: wrap;
+        .btn {
+            margin-bottom: 25px;
+        }
+    }
+}
+@include media-breakpoint-down(xxxs) {
+    .text-with-img {
+        font-size: 12px;
+        line-height: 18px;
+    }
+}
+@include media-breakpoint-down(xxxxs) {
+    .box-numbers .item-number {
+        width: 100%;
+    }
+    .box-buttons-feature-4 .btn-black {
+        margin-bottom: 15px;
+    }
+    .box-buttons-feature-4 .btn.btn-learmore-2 {
+        margin-bottom: 15px;
+    }
+}
+@include media-breakpoint-up(xxl) {
+    //min-width: 1400px
+    .container.wide {
+        max-width: 1544px;
+    }
+    .w-lg-75{
+        max-width: 75%;
+    }
+}
+/*OTHER SCREEN*/
+@media screen and (min-width: 1200px) and (max-width: 1440px) {
+    .header-right {
+        display: none;
+    }
+}
